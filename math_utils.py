@@ -1,6 +1,7 @@
 def fibonacci(n):
     """
-    Generate the Fibonacci sequence up to the nth number.
+    生成前 n 个斐波那契数列。
+    
     """
     if n <= 0:
         return []
